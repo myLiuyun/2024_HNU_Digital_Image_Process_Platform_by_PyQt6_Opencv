@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImageChannelComponentWidget</class>
+ <widget class="QWidget" name="ImageChannelComponentWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>428</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="enableWidget" native="true"/>
+   </item>
+   <item>
+    <widget class="RadioScrollWidget" name="R" native="true"/>
+   </item>
+   <item>
+    <widget class="RadioScrollWidget" name="G" native="true"/>
+   </item>
+   <item>
+    <widget class="RadioScrollWidget" name="B" native="true"/>
+   </item>
+   <item>
+    <widget class="RadioScrollWidget" name="A" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>RadioScrollWidget</class>
+   <extends>QWidget</extends>
+   <header>widgets.utils.RadioScrollWidget</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

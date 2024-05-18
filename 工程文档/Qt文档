@@ -1,0 +1,12 @@
+关于调整GeaphicsItem的大小，来适应窗口：
+https://blog.csdn.net/Bing_Lee/article/details/108805916
+
+在PyQt的QtDesigner中实现控件提升:
+https://blog.csdn.net/yg2496194392/article/details/122283420
+
+实现在控件窗口右键，出现弹出菜单:
+https://blog.csdn.net/qq_44519484/article/details/118390158
+
+实现拖拽：
+https://blog.csdn.net/xholes/article/details/81772354
+https://blog.csdn.net/weixin_62650212/article/details/130452227
